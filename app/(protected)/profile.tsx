@@ -10,7 +10,7 @@ import {
 import { useState } from "react";
 import { router } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { Colors } from "../constants/Colors";
+import { Colors } from "../../constants/Colors";
 
 export default function ProfileScreen() {
   const [notifications, setNotifications] = useState(true);
